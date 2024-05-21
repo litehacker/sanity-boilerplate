@@ -7,13 +7,10 @@ export default defineConfig({
   name: 'default',
   title: 'sanity-boilerplate',
 
-  projectId: 'fgga37ss',
+  projectId: '74zz0kqb',
   dataset: 'production',
 
-  plugins: [
-    structureTool(),
-    visionTool(),
-  ],
+  plugins: [structureTool(), visionTool()],
 
   schema: {
     types: schemaTypes,
